@@ -1,0 +1,38 @@
+{
+  "name": "electron-kbd-demo",
+  "version": "1.0.0",
+  "description": "Electron keyboard shortcuts demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriy-denysenko/electron-kbd-demo.git"
+  },
+  "keywords": [
+    "electron",
+    "keyboard",
+    "shortcuts",
+    "nodejs",
+    "electronjs",
+    "node",
+    "local",
+    "global",
+    "browser",
+    "window"
+  ],
+  "author": "Copyright © 2023 Andriy Denysenko, Copyright © 2023 OpenJS Foundation and Electron contributors.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/andriy-denysenko/electron-kbd-demo/issues"
+  },
+  "homepage": "https://github.com/andriy-denysenko/electron-kbd-demo#readme",
+  "devDependencies": {
+    "electron": "^27.0.3"
+  },
+  "dependencies": {
+    "mousetrap": "^1.6.5"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron keyboard shortcuts demo</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+  </head>
+  <body>
+    <h1>Electron keyboard shortcuts demo</h1>
+    <h2>Local shortcuts</h2>
+    <p>
+      Hit Alt+Shift+I on Windows, or Alt+Cmd+I on mac to log a message in the
+      console using local keyboard shortcut.
+    </p>
+    <h2>Global shortcuts</h2>
+    <p>Hit Alt+Ctrl+Q on Windows, or Alt+Cmd+Q on mac to show/hide window.</p>
+    <p>Hit Ctrl+Q on Windows, or Cmd+Q on mac to exit application.</p>
+    <h2>Browser window shortcuts</h2>
+    <p>
+      Hit Ctrl+I to see a message printed to the console for browser window
+      shortcut. (The next version will write the message on this page)
+    </p>
+    <p>
+      Pressed keys will be logged in the console. (The next version will log
+      them on this page)
+    </p>
+    <div id="log"></div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
