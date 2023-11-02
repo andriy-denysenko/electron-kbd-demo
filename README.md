@@ -1,6 +1,6 @@
 # Electron keyboard shortcuts demo
 
-## Ways to use keyboard shortcuts in Electron
+## Ways to use keyboard shortcuts in a tray icon app in Electron
 
 Shows how to use keyboard shortcuts in Electron. There are three types of shortcuts:
 

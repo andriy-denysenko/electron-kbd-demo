@@ -1,1 +1,2 @@
-Use IPC to route before-input-event from main.js
+Use IPC to route before-input-event from main.js https://www.electronjs.org/docs/latest/tutorial/ipc
+Read about BrowserWindow to respond to intercepted key presses in an app.
